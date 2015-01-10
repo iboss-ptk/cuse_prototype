@@ -1,0 +1,92 @@
+/* global section */
+
+body, ul, li { padding: 0; margin: 0; }
+
+ul {
+  list-style: none;
+  margin-left: 25px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* navigation bar section */
+
+nav {
+  background: black;
+  color: white;
+  transition: background 1s ease;
+  background: rgb(0, 0, 0); /* fall back */
+  background: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  transition: all 0.5s ease;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+nav a:hover {
+    color: #20D0D0;
+    text-decoration: none;
+}
+
+nav:hover {
+  background: rgba(0, 0, 0, .9);
+}
+
+/* class for after scroll */
+
+.scrolled {
+  background: rgba(0, 0, 0, .8);
+  height: 50px;
+  line-height: 50px;
+}
+
+/* header */
+
+header {
+    background: url('http://7-themes.com/data_images/out/76/7033261-grass-background-wallpaper.jpg') 20% 20% no-repeat;
+    background-size: 100%;
+    min-width:100%;
+    height:1000px;
+}
+
+/* the rest */
+
+section {
+  max-width: 600px;
+  padding: 0 25px;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 1.2em;
+      line-height: 1.5;
+}
+
+h1, li a, footer p {
+  font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 { 
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 45px;
+  height: 50px;
+}
