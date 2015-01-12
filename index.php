@@ -15,7 +15,7 @@
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
-		<nav>
+		<nav class="nav nav-default">
 			<ul>
 				<li><a href="#one">One</a></li>
 				<li><a href="#two">Two</a></li>
@@ -23,8 +23,8 @@
 			</ul>
 		</nav>
 
-		<header></header>
-		<section>
+		<header id="header" data-type="background" data-speed="10"></header>
+		<section id="content" data-type="background" data-speed="10">
 			<h1 id="one">One</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non urna a malesuada. In ac lorem vel nisi imperdiet cursus. Curabitur facilisis rutrum tortor, id rutrum lacus facilisis et. Phasellus non ipsum lobortis, tempor elit a, hendrerit nulla. Aenean semper facilisis augue id porttitor. Sed accumsan nibh a diam molestie, eu egestas mauris venenatis. Duis scelerisque luctus enim et gravida. Nam quis turpis non purus interdum luctus. Etiam gravida adipiscing venenatis.</p>
 			<p>Duis non est massa. Integer placerat dictum magna et dapibus. Proin laoreet, neque eu tempus aliquam, eros orci consequat ante, in consectetur ligula magna vel justo. Nulla eu quam egestas, vehicula mi a, auctor dui. Maecenas nec sem sit amet velit interdum ullamcorper at non diam. Vestibulum lectus orci, tempor eu scelerisque vitae, vulputate id tortor. Cras lacus dui, aliquet at tempus pharetra, ultrices ac eros. Integer a placerat quam, sed ornare tellus. In eu placerat massa. Phasellus accumsan faucibus leo, sed egestas eros accumsan ac. Praesent adipiscing, nulla et ullamcorper suscipit, lectus magna rhoncus augue, at sodales eros lectus eu risus. Nam vulputate sem ac faucibus venenatis. Aenean semper felis sed convallis cursus. Proin commodo magna gravida dolor egestas, vitae congue dolor vestibulum. Nulla eros purus, consectetur eu sollicitudin eget, porttitor eu tortor.</p>
